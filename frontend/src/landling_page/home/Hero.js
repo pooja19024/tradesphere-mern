@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 //Hero Section (Main Landing Banner)
 function Hero() {
+  const navigate = useNavigate(); 
   return (
     <div className="container p-5 mb-5">
 
@@ -22,6 +24,7 @@ function Hero() {
         <button
           className="p-2 btn btn-orange fs-5 mb-5"
           style={{ width: "20%", margin: " 0 auto" }}
+          onClick={() => navigate("/signup")}
         >
           Signup Now
         </button>
