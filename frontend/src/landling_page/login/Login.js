@@ -6,7 +6,7 @@ import "./Login.css";
 // Login Component (Authentication)
 const Login = () => {
 
-  // 📥 Form State (email & password)
+  //  Form State (email & password)
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -16,7 +16,7 @@ const Login = () => {
   const [message, setMessage] = useState("");
   const [isError, setIsError] = useState(false);
 
-  // ✏️ Handle Input Change
+  //  Handle Input Change
   const handleChange = (e) => {
     setFormData((prev) => ({
       ...prev,
@@ -51,7 +51,7 @@ const Login = () => {
 
       //  Redirect to dashboard
       setTimeout(() => {
-        window.location.href = `http://localhost:3001?username=${res.data.user.username}&email=${res.data.user.email}`;
+        window.location.href = `http://localhost:3000?username=${res.data.user.username}&email=${res.data.user.email}`;
       }, 1500);
 
     } catch (err) {

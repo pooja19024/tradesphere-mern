@@ -54,7 +54,7 @@ const Signup = () => {
 
       //  Redirect to dashboard
       setTimeout(() => {
-  const url = `http://localhost:3001?username=${formData.username}&email=${formData.email}`;
+  const url = `http://localhost:3000?username=${formData.username}&email=${formData.email}`;
   
   console.log("Redirecting to:", url);
 
