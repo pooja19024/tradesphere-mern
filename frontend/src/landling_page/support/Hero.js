@@ -8,7 +8,7 @@ function Hero() {
         id="supportWrapper"
       >
         <h5 className="mb-0" style={{ fontSize: "30px",}}>Support Portal</h5>
-        <a href="" className="text-white text-decoration-underline"  style={{ fontSize: "20px",}}>
+        <a href="#" className="text-white text-decoration-underline"  style={{ fontSize: "20px",}}>
           Track Tickets
         </a>
       </div>
