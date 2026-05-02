@@ -32,20 +32,20 @@ function Hero() {
           />
           <br />
          <div style={{ display: "flex", gap: "15px", flexWrap: "wrap" }}>
-  <a href="">Track account opening</a>
-  <a href="">Track segment activation</a>
-  <a href="">Intraday margins</a>
-  <a href="">Kite user manual</a>
+  <a href="#">Track account opening</a>
+  <a href="#">Track segment activation</a>
+  <a href="#">Intraday margins</a>
+  <a href="#">Kite user manual</a>
 </div>
         </div>
         <div className="col-6 p-3" style={{ marginTop: "10px" }}>
           <h4  style={{ fontWeight: "500" }}>Featured</h4>
           <ol style={{ marginTop: "15px", fontSize: "14px"}}>
             <li>
-              <a href="">Current Takeovers and Delisting - January 2024</a>
+              <a href="#">Current Takeovers and Delisting - January 2024</a>
             </li>
             <li>
-              <a href="">Latest Intraday leverages - MIS & CO</a>
+              <a href="#">Latest Intraday leverages - MIS & CO</a>
             </li>
           </ol>
         </div>

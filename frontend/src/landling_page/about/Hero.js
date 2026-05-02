@@ -40,13 +40,14 @@ function Hero() {
         </div>
 
         {/* Right Content */}
+
         <div className="col-6 p-5">
           <p>
             In addition, we run a number of popular open online educational and
             community initiatives to empower retail traders and investors.
           </p>
           <p>
-            <a href="" style={{ textDecoration: "none" }}>
+            <a href="#" style={{ textDecoration: "none" }}>
               Rainmatter
             </a>
             , our fintech fund and incubator, has invested in several fintech
